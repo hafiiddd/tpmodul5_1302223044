@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    public class haloGeneric
+    {
+        public static void sapaUser<T>(T X)
+        {
+            Console.WriteLine("halo, " + X);
+        }
+    }
+    private static void Main(string[] args)
+    {
+      
+        haloGeneric.sapaUser("Hafid");
+    }
+}
